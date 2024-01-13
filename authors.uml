@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.authors</OriginalElement>
+  <nodes>
+    <node x="500.00125332952825" y="-100.04794520547945">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.user_role</node>
+    <node x="560.3219178082192" y="308.7397260273972">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_cards</node>
+    <node x="215.3869863013698" y="-80.0">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_types</node>
+    <node x="-37.51712328767121" y="-80.0">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.publishers</node>
+    <node x="70.93539050608831" y="632.4383561643835">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.authors</node>
+    <node x="471.00125332952825" y="-243.83561643835617">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.roles</node>
+    <node x="804.1720987202409" y="86.30136986301369">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.refresh_token</node>
+    <node x="74.0" y="120.0">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_items</node>
+    <node x="-143.00125332952823" y="170.22602739726028">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_category</node>
+    <node x="321.2692946156774" y="464.43835616438355">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_card_records</node>
+    <node x="-176.50125332952823" y="407.4109589041095">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.categories</node>
+    <node x="395.00125332952825" y="50.30136986301369">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.users</node>
+    <node x="82.93539050608831" y="419.45205479452056">78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_authors</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_category" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.categories" relationship="REFERENCES">
+      <point x="0.0" y="43.5" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.user_role" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.users" relationship="REFERENCES">
+      <point x="0.0" y="43.5" />
+      <point x="0.0" y="-104.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_card_records" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_cards" relationship="REFERENCES">
+      <point x="147.0" y="-140.0" />
+      <point x="-8.052623192541773" y="44.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_card_records" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.users" relationship="REFERENCES">
+      <point x="15.0" y="-140.0" />
+      <point x="490.7692946156774" y="169.3013698630137" />
+      <point x="-165.5" y="15.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_items" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.publishers" relationship="REFERENCES">
+      <point x="-121.0" y="-116.0" />
+      <point x="12.017123287671211" y="44.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_card_records" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_items" relationship="REFERENCES">
+      <point x="-147.0" y="-140.0" />
+      <point x="126.26929461567738" y="116.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.refresh_token" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.users" relationship="REFERENCES">
+      <point x="0.0" y="-68.0" />
+      <point x="951.1720987202409" y="154.3013698630137" />
+      <point x="560.5012533295283" y="154.3013698630137" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_items" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_types" relationship="REFERENCES">
+      <point x="86.3869863013698" y="-116.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_authors" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.authors" relationship="REFERENCES">
+      <point x="0.0" y="68.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_authors" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_items" relationship="REFERENCES">
+      <point x="-4.07393217275478" y="-68.0" />
+      <point x="-37.63854166666647" y="116.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_cards" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.users" relationship="REFERENCES">
+      <point x="0.0" y="-44.0" />
+      <point x="70.3206644786909" y="104.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.user_role" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.roles" relationship="REFERENCES">
+      <point x="0.0" y="-43.5" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.item_category" target="78380e30-269d-4b69-a2ee-77ebaad11f4c.TABLE:pet_library.public.library_items" relationship="REFERENCES">
+      <point x="38.25" y="-43.5" />
+      <point x="-28.251253329528225" y="213.72602739726028" />
+      <point x="138.25" y="213.72602739726028" />
+      <point x="-64.25" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9567354965585054" showDependencies="false" x="534.0" y="197.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
